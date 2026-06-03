@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../CSS/style1.css">
+    <style>
+        /* Additional styles for the About section */
+        .about-section {
+            background-image: url('../img/pexels-stephen-leonardi-587681991-18041018.jpg'); /* Correct way to set background image */
+            background-size: cover;
+            background-position: center;
+            padding: 80px 0;
+            color: #fff; /* Text color for readability on dark background */
+        }
+
+        .about-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            margin: 0 auto;
+            max-width: 1200px;
+            padding: 20px;
+        }
+
+        .text-content {
+            flex: 1;
+            min-width: 300px;
+            background: rgba(0, 0, 0, 0.7); /* Semi-opaque black box */
+            color: #fff;
+            font-size: 18px;
+            line-height: 1.8;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .text-content h3, .text-content h4 {
+            color: #ffdf00;
+            text-align: left;
+        }
+
+        .image-content {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .image-content img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .section-title {
+            font-size: 48px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 50px;
+            color: #ffdf00;
+        }
+
+        blockquote {
+            font-style: italic;
+            font-size: 22px;
+            margin: 30px 0;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border-left: 5px solid #ff8000;
+        }
+        .about-section {
+    background-image: url('../img/pexels-stephen-leonardi-587681991-18041018.jpg'); /* Correct way to set background image */
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px; /* Increased padding to cover more space */
+    color: #fff; /* Text color for readability on dark background */
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 0 auto;
+    max-width: calc(1200px + 40px); /* Adjust the max-width to account for additional space */
+    padding: 20px;
+}
+
+    </style>
+</head>
+<body>
+    <header class="custom-header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="../index.html"><img src="../img/milestone logo (1).png" alt="Logo"></a>
+                <span class="business-name">Milestone</span>
+            </div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="genral.html">General Rules</a></li>
+                <li><a href="event.html">Events</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Countdown to Milestone</h1>
+            <div class="countdown-container">
+                <div class="countdown-box">
+                    <span id="days" class="countdown-value">0</span>
+                    <span class="countdown-label">Days</span>
+                </div>
+                <div class="countdown-box">
+                    <span id="hours" class="countdown-value">0</span>
+                    <span class="countdown-label">Hours</span>
+                </div>
+                <div class="countdown-box">
+                    <span id="minutes" class="countdown-value">0</span>
+                    <span class="countdown-label">Minutes</span>
+                </div>
+                <div class="countdown-box">
+                    <span id="seconds" class="countdown-value">0</span>
+                    <span class="countdown-label">Seconds</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">Milestone: A Cultural Extravaganza</h2>
+            <div class="about-content">
+                <div class="text-content">
+                    <p>Established in 2000, Milestone has evolved into an inter-school cultural fest that celebrates creativity, diversity, and competition. Hosted by St. George’s College, Mussoorie, this event is a melting pot of artistic talents and intellectual challenges.</p>
+                    <blockquote>"Where creativity meets competition, and talents come alive."</blockquote>
+                    <p>From photography and singing to choreography and movie-making, Milestone is a platform where students showcase their best, pushing the boundaries of artistic expression.</p>
+                    <p>This event is not just about winning; it’s about participation, learning, and growing as individuals and as a community. Every performance, every entry, every artistic endeavor contributes to the collective energy that makes Milestone an unforgettable experience.</p>
+                    <p>Year after year, Milestone has drawn the best talents from schools across the region, fostering a spirit of camaraderie and mutual respect among participants. It’s a celebration of youthful exuberance, a chance to witness tomorrow’s leaders in action today.</p>
+
+                    <h3>A Tradition of Excellence</h3>
+                    <p>St. George’s College, with its rich heritage and commitment to holistic education, has been the perfect stage for Milestone, where each year, students outdo themselves, leaving behind a legacy of excellence.</p>
+                    <p>Milestone is more than just an event; it is a tradition that embodies the values of St. George’s College—excellence, integrity, and a relentless pursuit of knowledge. As we look forward to the next edition of Milestone, we celebrate not just the event, but the community that makes it possible.</p>
+
+                    <h4>Looking Ahead</h4>
+                    <p>As we approach Milestone 2024, the anticipation grows. This year promises to be the most exciting edition yet, with new categories, more participants, and an even greater celebration of the arts. Whether you are a participant, a supporter, or a spectator, Milestone 2024 is set to be a spectacular showcase of talent and creativity.</p>
+                    <p>We invite you to be part of this journey. Experience the thrill of competition, the joy of artistic expression, and the sense of belonging that comes with being part of something truly special. This is Milestone—where every step forward marks a new chapter in the story of excellence.</p>
+                </div>
+                <div class="image-content">
+                    <img src="../img/FILE DESIGN.png" alt="Milestone Event">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="previous-milestones" class="milestones-section">
+        <div class="container">
+            <h2 class="section-title">Previous Year Milestones</h2>
+            <div class="videos-row">
+                <div class="video-container">
+                    <iframe 
+                        src="https://www.youtube.com/embed/q9FmpqQdgSs?si=OE4WezbQ3ZWxHsdc" 
+                        title="Milestone 2023 Video" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                    </iframe>
+                    <div class="video-title">Milestone 2023</div>
+                </div>
+                <div class="video-container">
+                    <iframe 
+                        src="https://www.youtube.com/embed/TnPJQ-7bI6g?si=lpd0t7fLSZx8UFHS" 
+                        title="Milestone 2022 Video" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                    </iframe>
+                    <div class="video-title">Milestone 2022</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const countdownDate = new Date("August 31, 2024 07:30:00").getTime();
+    
+            const countdownFunction = setInterval(function() {
+                const now = new Date().getTime();
+                const distance = countdownDate - now;
+    
+                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+                document.getElementById("days").innerHTML = days;
+                document.getElementById("hours").innerHTML = hours;
+                document.getElementById("minutes").innerHTML = minutes;
+                document.getElementById("seconds").innerHTML = seconds;
+    
+                if (distance < 0) {
+                    clearInterval(countdownFunction);
+                    document.querySelector(".hero-content").innerHTML = "<h1>Milestone has begun!</h1>";
+                }
+            }, 1000);
+        });
+    </script>
+    
+</body>
+</html>
