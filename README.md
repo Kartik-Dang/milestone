@@ -121,4 +121,4 @@ Milestone/
 
 **Kartik Dang**  
 Computer Science, Nanyang Technological University  
-LinkedIn: [linkedin.com/in/dangkartik](https://linkedin.com/in/dangkartik)
+[LinkedIn](https://linkedin.com/in/dangkartik) | kartik007@e.ntu.edu.sg
